@@ -97,4 +97,6 @@ a.contact{
   margin-bottom: .6255rem;
 }
 
-
+ul, il{
+  list-style: none;
+}
