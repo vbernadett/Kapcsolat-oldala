@@ -1,0 +1,53 @@
+/**
+ * TARTALOMJEGYZÉK
+ *
+ * ELRENDEZÉS
+ * Elemek.................Magukra a containerekre vonatkozó méretszabályok.
+ * Módosítók..............Az elrendezést módosító szabályok, pl. floatok.
+ *
+ * TÉRKÖZÖK
+ * Vízszintes térközök....Containerek közötti vízszintes whitespace szabályai.
+ *
+ * HELPEREK
+ * Clearfix...............Floatolt containerekre hívható class.
+ */
+
+/*==================ELRENDEZÉS==================*/
+
+.layout_item--full-width {width: 100%;}
+
+.layout_item--70-percent {width: 70%;}
+
+.layout_item--50-percent {width: 50%;}
+
+.layout_item--50-percent-with-gutter {width: calc(50% - 1.067rem);}
+
+.layout_item--content {min-height: calc(100% - 6.25rem);}
+
+.layout_item--centered-horizontally {
+  
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.layout_item--floated-left {float: left;}
+.layout_item--floated-right {float: right;}
+
+
+/*==================TÉRKÖZÖK====================*/
+
+.space_horizontal-big {margin-bottom: 2.5rem;}
+.space_horizontal-small {margin-bottom: 1.875rem;}
+
+.space_vertical_small {margin-bottom: .9375rem;}
+
+.space_vertical_big {margin-bottom: 1.25rem;}
+
+/*===================HELPEREK====================*/
+
+.clearix::after{
+  content: "";
+  display: table;
+  clear: both;
+}

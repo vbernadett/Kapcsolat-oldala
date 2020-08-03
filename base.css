@@ -1,0 +1,100 @@
+/**
+ * TARTALOMJEGYZÉK
+ *
+ * BEÁLLÍTÁSOK
+ * Box-sizing...........Az oldalunk globális alapbeállításai.
+ * Base font-size.......Az alap betűméret deklarálása.
+ * Margins..............Top és bottom marginok globális értékei.
+ * Anchor...............A linkek alapértelmezett beállításai.
+ *
+ * TIPOGRÁFIA
+ * Headingek, linkek és gombok............Tipográfiai stílusok.
+ */
+
+/*------------------------------------*\
+  #BEÁLLÍTÁSOK
+\*------------------------------------*/
+
+/**
+ * 1. Egy értelmesebb box-sizing modell.
+ *
+ * 2. Ez a szabály átállítja a base font-size értéket, amelyhez az összes
+ * rem egység viszonyít.
+ *
+ * 3. A Normalize.css beállít egy top és bottom margint ezeknek az elemeknek.
+ * Ez interferálna a saját elrendezésünkkel, úgyhogy ezzel a szabállyal felülírjuk.
+ *
+ * 4. A fő tipográfiai elemeinknek adunk itt egy általános bottom-margint,
+ * amellyel biztosítjuk, hogy az oldalunkon mindenhol ugyanolyanok legyenek
+ * a vízszintes margók alapértelmezetten. Ezt később esetenként felülírhatjuk.
+ */
+
+
+*{box-sizing: border-box;}
+
+html{font-size: 16px;}
+
+h6, h5, p, ul{
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+h1{
+  margin-bottom: .625rem;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul{
+  margin-top: 1.875rem;
+}
+
+/*===================TIPOGRÁFIA====================*/
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #211138;
+  background-color: #F4F3F5;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1{
+  font-size: 2.5rem;
+  color: #211138;
+  font-weight: bold;
+}
+
+h6{
+  font-size: 1.25rem;
+  color: #211138
+}
+
+p{
+  font-size: .875rem;
+}
+
+h5{
+  font-size: .75rem;
+  color: #6200EA;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  font-weight: bold;
+}
+
+a{
+  font-size: .75rem;
+  color: #F4F3F5;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a.contact{
+  color: #6200EA;
+  margin-bottom: .6255rem;
+}
+
+

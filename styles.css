@@ -1,0 +1,158 @@
+/**
+ * TARTALOMJEGYZÉK
+ *
+ * 1. GOMBOK
+ *
+ * 2. FEJLÉC
+ *
+ * 3. NAVIGÁCIÓ
+ *
+ * 4. POSZT
+ *
+ * 5. LÁBLÉC
+ */
+
+/*=====================GOMBOK======================*/
+
+.button{
+  display: inline-block;
+  width: 100%;
+  height: 3.125rem;
+  padding: 1.125rem;
+  color: #FFFFFF;
+  border-radius: 1.5rem;
+  border: .125rem solid #6200EA;
+  background-color: #6200EA;
+  text-align: center;
+  letter-spacing: .15rem;
+}
+
+/*====================FEJLÉC========================*/
+
+header{
+  height: 80px;
+  background-color: #6200EA;
+}
+
+.header_wrapper{
+  height: 100%;
+}
+  
+.header_logo, .header_nav{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.img_logo{
+  padding-top: .9375rem;
+}
+
+/*===================NAVIGÁCIÓ======================*/
+
+.navigation{
+  display: inline-block;
+  margin-right: 2.7rem;
+  color: #F4F3F5;
+  padding-top: 2.0625rem;
+  float: right;
+}
+
+a.navigation:first-child {margin-right: 0;}
+
+.navigation:hover{
+  padding-bottom: 1.8rem;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+/*======================POSZT=======================*/
+
+.post_features{
+  width: calc(50% - 1.067rem);
+  border-radius: .9375rem;
+  background-color: #FFFFFF;
+  padding: 3.75rem;
+  height: 40rem;
+  margin-bottom: 2.5rem;
+}
+
+.map{
+  width: 100%;
+  height: 280px;
+  border-radius: .9375rem;
+}
+
+.icon_set{
+  display: inline-block;
+  color: #6200EA;
+  float: left;
+  margin-right: .625rem;
+}
+
+.input_box{
+  display: inline-block;
+  width: 100%;
+  height: 3.125rem;
+  background-color: #F4F3F5;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.input_box_150{
+  display: inline-block;
+  width: 100%;
+  height: 9.375rem;
+  background-color: #F4F3F5;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.Contact_head{
+  display: inline-block;
+  width: 100%;
+  height: 3.125rem;
+  font-size: 2.5rem;
+}
+
+.Contact_text{
+  display: inline-block;
+  width: 100%;
+  height: 5.625rem;
+  font-size: 1.25rem;
+}
+
+/*===================LÁBLÉC=========================*/
+
+.layout_item--content {min-height: calc(100vh - 12%);}
+
+footer{
+  height: 12%;
+  width: 100%;
+  text-align: center;
+  padding: 2.6875rem;
+  background-color: #211138;
+}
+
+.footer_copywright{
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: bold;
+  color: #B2ACBA;
+  letter-spacing: .15rem;
+}
+
+.footer_brand-name, .footer_student-name{
+  color: #6200EA;
+}
+  
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
